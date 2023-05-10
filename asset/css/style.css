@@ -1,0 +1,156 @@
+@font-face {
+  font-family: iranSansY;
+  src: url(../font/IRANSansX-Regular.woff);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  direction: rtl;
+  font-family: iranSansY;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.rowgreen{
+  padding: 5px;
+  background-color: green;
+  margin-top: 2px;
+}
+.rowred{
+  padding: 5px;
+  /*background-color: red;*/
+  color: #B71C1C;
+
+}
+
+.container{
+  /*width: 380px;*/
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 28px;
+  background-color: #FFFFFF;
+  height: 590px;
+}
+
+button{
+  font-family: iranSansY;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.div-result{
+  line-height: 2;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 390px;
+  overflow-y: auto;
+  display: inline-block;
+  width: 300px;
+}
+.title{
+  margin-top: 0px;font-weight: bold;  color: #ffffff;background-color: #00796B;padding: 8px;
+}
+
+.border-top-1{
+  border-top: 41px solid #2E7D32;
+}
+
+
+.border-top-2{
+  border-top: 41px solid #AD1457;
+}
+
+
+.border-top-3{
+  border-top: 41px solid #00695C;
+}
+
+textarea{
+  font-weight: bold;
+  font-family: iransansy;
+  margin-top: 20px;
+
+}
+
+
+.footer-div{
+  background-color: #212121; width: 100% ;position: fixed; bottom: 0;
+}
+
+.footer-p{
+  margin: 0 auto; text-align: center; color: #ffffff;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.header-title{
+  width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px dashed;
+}
+
+.main-container{
+  padding: 10px;
+  border: 1px solid;
+  width: 990px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-top: 39px solid #333333;
+}
+
+.ltr{
+  direction: ltr;
+}
+
+.section1{
+  display: inline-block;
+  width: 429px;
+  float: right;
+}

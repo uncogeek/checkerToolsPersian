@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>صحت سنج</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Ehsan Heydari">
+  <link rel="stylesheet" href="asset/css/style.css">
+  <script src="asset/js/jquery-3.6.4.min.js"></script>
+  <script src="asset/js/common.js"></script>
+
+</head>
+<body>
+
+<div class="main-container">
+
+<div class="header-title">
+  <h2>ابزار آنلاین جهت صحت سنجی شماره شبا و شماره کارت بانکی و شماره ملی</h2>
+  <h3>میتوانید به صورت همزمان چندین شماره کارت و شبا و یا کد ملی را بررسی نمائید</h3>
+</div>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'codeMeli')">کد ملی</button>
+  <button class="tablinks" onclick="openCity(event, 'sheba')">شبا</button>
+  <button class="tablinks" onclick="openCity(event, 'cardBank')">کارت بانکی</button>
+</div>
+
+
+<section>
+  <div class="container border-top-1 tabcontent border-top-1" style="" id="cardBank">
+    <p class="title">صحت سنجی شماره کارت بانکی</p>
+    <div class="section1">
+      <textarea class="ltr" id="checkbankcard" rows="20" cols="60"></textarea>
+      <button onclick="doCheckCardBank()">صحت سنجی</button>
+    </div>
+    <div class="div-result"  id="resultcardnumber" ></div>
+  </div>
+
+
+  <div class="border-top-2 container tabcontent" style="" id="codeMeli">
+    <p class="title">صحت سنجی شماره ملی</p>
+    <div class="section1">
+      <textarea class="ltr" id="checkNationalId" rows="20" cols="60"></textarea><br>
+      <button onclick="doCheckCodeMili()">صحت سنجی</button>
+    </div>
+    <div class="div-result"  id="resultNationalId" ></div>
+  </div>
+
+  <div class="container border-top-3 tabcontent border-top-3" style="" id="sheba">
+    <p class="title">صحت سنجی شماره شبا</p>
+    <div class="section1">
+    <textarea class="ltr" id="checkSheba" rows="20" cols="60"></textarea><br>
+    <button onclick="doCheckSHeba()">صحت سنجی</button>
+    </div>
+
+    <div class="div-result"  id="resultSheba" ></div>
+  </div>
+</section>
+</div>
+<div class="footer-div">
+  <p class="ltr footer-p">
+    Made with <span style="color: #e25555;">❤</span> by <a style="color: #ffffff;" title="Ehsan Heydari" href="http://uncogeek.ir/">UncoGeek!</a>
+  </p>
+<div>
+
+</body>
+</html>
